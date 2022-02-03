@@ -6,7 +6,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -14,6 +13,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.pichula.init.PichulaModTabs;
 import net.mcreator.pichula.init.PichulaModItems;
 
 public abstract class GameItem extends ArmorItem {
@@ -21,7 +21,7 @@ public abstract class GameItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 701;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 901;
 			}
 
 			@Override
@@ -53,7 +53,7 @@ public abstract class GameItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 5f;
+				return 10f;
 			}
 
 			@Override
@@ -65,7 +65,7 @@ public abstract class GameItem extends ArmorItem {
 
 	public static class Helmet extends GameItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(PichulaModTabs.TAB_ANTIMATERI));
 			setRegistryName("game_helmet");
 		}
 
@@ -77,7 +77,7 @@ public abstract class GameItem extends ArmorItem {
 
 	public static class Chestplate extends GameItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(PichulaModTabs.TAB_ANTIMATERI));
 			setRegistryName("game_chestplate");
 		}
 
@@ -89,7 +89,7 @@ public abstract class GameItem extends ArmorItem {
 
 	public static class Leggings extends GameItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(PichulaModTabs.TAB_ANTIMATERI));
 			setRegistryName("game_leggings");
 		}
 
@@ -101,7 +101,7 @@ public abstract class GameItem extends ArmorItem {
 
 	public static class Boots extends GameItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(PichulaModTabs.TAB_ANTIMATERI));
 			setRegistryName("game_boots");
 		}
 

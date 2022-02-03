@@ -1,26 +1,29 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    " 3",
-    " 5"
+    "012",
+    " 4 ",
+    " 7 "
   ],
   "key": {
     "0": {
-      "item": "pichula:antimater"
+      "item": "pichula:estrella_bl"
     },
     "1": {
-      "item": "pichula:antimater"
+      "item": "pichula:estrella_bl"
     },
-    "3": {
+    "2": {
+      "item": "pichula:estrella_bl"
+    },
+    "4": {
       "item": "minecraft:stick"
     },
-    "5": {
+    "7": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "pichula:anti_azada",
+    "item": "pichula:titi",
     "count": 1
   }
 }

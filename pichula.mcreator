@@ -133,6 +133,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pantalones"
+    },
+    {
+      "name": "EstrellaBL",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estrella_bl"
+    },
+    {
+      "name": "Estrella",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estrella"
+    },
+    {
+      "name": "Tit",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tit"
+    },
+    {
+      "name": "Boots",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boots"
+    },
+    {
+      "name": "Casco",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casco"
+    },
+    {
+      "name": "Antimateri",
+      "type": "tab",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimateri"
     }
   ],
   "variable_elements": [],
@@ -140,6 +188,7 @@
   "language_map": {
     "en_us": {
       "item.pichula.anti_azada": "Anti Azada",
+      "block.pichula.estrella_bl": "Estrella BL",
       "item.pichula.anti_espada": "Anti Espada",
       "item.pichula.antimater": "Antimater",
       "item.pichula.anti_pico": "Anti Pico",
@@ -150,7 +199,8 @@
       "item.pichula.anti_hacha": "Anti Hacha",
       "item.pichula.game_boots": "Game Boots",
       "item.pichula.game_leggings": "Game Leggings",
-      "item.pichula.titi": "Titi"
+      "item.pichula.titi": "Titi",
+      "itemGroup.tabantimateri": "Antimateri"
     }
   },
   "foldersRoot": {

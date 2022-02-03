@@ -1,9 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    " 3",
-    " 5"
+    "012",
+    "3 5"
   ],
   "key": {
     "0": {
@@ -12,15 +11,18 @@
     "1": {
       "item": "pichula:antimater"
     },
+    "2": {
+      "item": "pichula:antimater"
+    },
     "3": {
-      "item": "minecraft:stick"
+      "item": "pichula:antimater"
     },
     "5": {
-      "item": "minecraft:stick"
+      "item": "pichula:antimater"
     }
   },
   "result": {
-    "item": "pichula:anti_azada",
+    "item": "pichula:game_helmet",
     "count": 1
   }
 }

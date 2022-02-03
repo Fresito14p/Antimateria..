@@ -5,7 +5,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.pichula.init.PichulaModTabs;
 
 public class TitiItem extends PickaxeItem {
 	public TitiItem() {
@@ -33,7 +34,7 @@ public class TitiItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, 76f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		}, 1, 76f, new Item.Properties().tab(PichulaModTabs.TAB_ANTIMATERI).fireResistant());
 		setRegistryName("titi");
 	}
 }
