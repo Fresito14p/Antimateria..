@@ -55,22 +55,6 @@
       "registry_name": "picoantiamteria"
     },
     {
-      "name": "AntiHacha",
-      "type": "tool",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anti_hacha"
-    },
-    {
-      "name": "Hachaantimateria",
-      "type": "recipe",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hachaantimateria"
-    },
-    {
       "name": "AntiPala",
       "type": "tool",
       "sortid": 9,
@@ -79,28 +63,12 @@
       "registry_name": "anti_pala"
     },
     {
-      "name": "Palaantimateria",
-      "type": "recipe",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "palaantimateria"
-    },
-    {
-      "name": "AntiAzada",
+      "name": "AntiHacha",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "anti_azada"
-    },
-    {
-      "name": "Azadaantimateria",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "azadaantimateria"
+      "registry_name": "anti_hacha"
     },
     {
       "name": "AntiEspada",
@@ -111,12 +79,60 @@
       "registry_name": "anti_espada"
     },
     {
+      "name": "Palaantimateria",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palaantimateria"
+    },
+    {
+      "name": "Azadaantimateria",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azadaantimateria"
+    },
+    {
+      "name": "Hachaantimateria",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hachaantimateria"
+    },
+    {
+      "name": "AntiAzada",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_azada"
+    },
+    {
       "name": "Espadaantimateria",
       "type": "recipe",
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "espadaantimateria"
+    },
+    {
+      "name": "Armor",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor"
+    },
+    {
+      "name": "Pantalones",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pantalones"
     }
   ],
   "variable_elements": [],

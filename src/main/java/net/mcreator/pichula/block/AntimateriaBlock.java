@@ -122,7 +122,7 @@ public class AntimateriaBlock extends Block {
 			double dx = (random.nextFloat() - 0.5D) * 0.5D;
 			double dy = (random.nextFloat() - 0.5D) * 0.5D;
 			double dz = (random.nextFloat() - 0.5D) * 0.5D;
-			world.addParticle(ParticleTypes.EXPLOSION, x0, y0, z0, dx, dy, dz);
+			world.addParticle(ParticleTypes.SPIT, x0, y0, z0, dx, dy, dz);
 		}
 	}
 }

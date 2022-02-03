@@ -18,11 +18,11 @@ public class AntiPicoItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 15f;
+				return 20f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 9f;
 			}
 
 			public int getLevel() {
