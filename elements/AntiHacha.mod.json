@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "antimaterias_pickaxe",
+    "texture": "a_axe",
     "customModelName": "Normal",
-    "name": "Anti Pico",
+    "name": "Anti Hacha",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Pickaxe",
+    "toolType": "Axe",
     "harvestLevel": 5,
-    "efficiency": 20.0,
-    "attackSpeed": 3.0,
+    "efficiency": 17.0,
+    "attackSpeed": 4.0,
     "enchantability": 20,
-    "damageVsEntity": 11.0,
+    "damageVsEntity": 20.0,
     "usageCount": 3500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:AntiPico"
+        "value": "CUSTOM:AntiHacha"
       }
     ],
     "immuneToFire": true,

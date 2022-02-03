@@ -4,8 +4,11 @@ package net.mcreator.pichula.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.pichula.init.PichulaModItems;
 
 public class AntiPicoItem extends PickaxeItem {
 	public AntiPicoItem() {
@@ -31,7 +34,7 @@ public class AntiPicoItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of(new ItemStack(PichulaModItems.ANTI_PICO));
 			}
 		}, 1, -1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
 		setRegistryName("anti_pico");
