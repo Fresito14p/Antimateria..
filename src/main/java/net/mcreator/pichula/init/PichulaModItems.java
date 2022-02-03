@@ -17,10 +17,6 @@ import net.mcreator.pichula.item.TitiItem;
 import net.mcreator.pichula.item.GameItem;
 import net.mcreator.pichula.item.AntimaterItem;
 import net.mcreator.pichula.item.AntiPicoItem;
-import net.mcreator.pichula.item.AntiPalaItem;
-import net.mcreator.pichula.item.AntiHachaItem;
-import net.mcreator.pichula.item.AntiEspadaItem;
-import net.mcreator.pichula.item.AntiAzadaItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -36,10 +32,6 @@ public class PichulaModItems {
 	public static final Item ANTIMATERIA = register(PichulaModBlocks.ANTIMATERIA, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item ANTIMATER = register(new AntimaterItem());
 	public static final Item ANTI_PICO = register(new AntiPicoItem());
-	public static final Item ANTI_HACHA = register(new AntiHachaItem());
-	public static final Item ANTI_PALA = register(new AntiPalaItem());
-	public static final Item ANTI_AZADA = register(new AntiAzadaItem());
-	public static final Item ANTI_ESPADA = register(new AntiEspadaItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
