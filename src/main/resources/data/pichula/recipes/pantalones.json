@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "pichula:antimater"
+    },
+    "1": {
+      "item": "pichula:antimater"
+    },
+    "2": {
+      "item": "pichula:antimater"
+    },
+    "3": {
+      "item": "pichula:antimater"
+    },
+    "5": {
+      "item": "pichula:antimater"
+    },
+    "6": {
+      "item": "pichula:antimater"
+    },
+    "8": {
+      "item": "pichula:antimater"
+    }
+  },
+  "result": {
+    "item": "pichula:game_leggings",
+    "count": 1
+  }
+}

@@ -53,6 +53,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "picoantiamteria"
+    },
+    {
+      "name": "Armor",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor"
+    },
+    {
+      "name": "Pantalones",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pantalones"
     }
   ],
   "variable_elements": [],

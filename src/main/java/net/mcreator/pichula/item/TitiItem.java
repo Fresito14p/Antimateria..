@@ -15,7 +15,7 @@ public class TitiItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 300f;
+				return 30000f;
 			}
 
 			public float getAttackDamageBonus() {

@@ -99,7 +99,7 @@
     "breakHarvestLevel": 4,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "SPIT"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
