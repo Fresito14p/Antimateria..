@@ -1,5 +1,6 @@
 {
   "item.pichula.anti_azada": "Anti Azada",
+  "block.pichula.estrella_bl": "Estrella BL",
   "item.pichula.anti_espada": "Anti Espada",
   "item.pichula.antimater": "Antimater",
   "item.pichula.anti_pico": "Anti Pico",
@@ -10,5 +11,6 @@
   "item.pichula.anti_hacha": "Anti Hacha",
   "item.pichula.game_boots": "Game Boots",
   "item.pichula.game_leggings": "Game Leggings",
-  "item.pichula.titi": "Titi"
+  "item.pichula.titi": "Titi",
+  "itemGroup.tabantimateri": "Antimateri"
 }

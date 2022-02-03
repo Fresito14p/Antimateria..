@@ -33,13 +33,14 @@ public class PichulaModItems {
 	public static final Item GAME_LEGGINGS = register(new GameItem.Leggings());
 	public static final Item GAME_BOOTS = register(new GameItem.Boots());
 	public static final Item TITI = register(new TitiItem());
-	public static final Item ANTIMATERIA = register(PichulaModBlocks.ANTIMATERIA, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item ANTIMATERIA = register(PichulaModBlocks.ANTIMATERIA, PichulaModTabs.TAB_ANTIMATERI);
 	public static final Item ANTIMATER = register(new AntimaterItem());
 	public static final Item ANTI_PICO = register(new AntiPicoItem());
 	public static final Item ANTI_HACHA = register(new AntiHachaItem());
 	public static final Item ANTI_PALA = register(new AntiPalaItem());
 	public static final Item ANTI_AZADA = register(new AntiAzadaItem());
 	public static final Item ANTI_ESPADA = register(new AntiEspadaItem());
+	public static final Item ESTRELLA_BL = register(PichulaModBlocks.ESTRELLA_BL, PichulaModTabs.TAB_ANTIMATERI);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

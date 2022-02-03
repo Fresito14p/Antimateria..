@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "pichula:estrella_bl"
+    },
+    "1": {
+      "item": "pichula:estrella_bl"
+    },
+    "2": {
+      "item": "pichula:estrella_bl"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pichula:titi",
+    "count": 1
+  }
+}

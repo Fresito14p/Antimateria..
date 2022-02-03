@@ -1,14 +1,7 @@
 
 package net.mcreator.pichula.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-
-import net.mcreator.pichula.init.PichulaModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class AntiEspadaItem extends PickaxeItem {
 	public AntiEspadaItem() {
@@ -36,7 +29,13 @@ public class AntiEspadaItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(PichulaModItems.ANTI_ESPADA));
 			}
-		}, 1, 1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		},
+
+				1, 1f,
+
+				new Item.Properties().tab(PichulaModTabs.TAB_DELETED_MOD_ELEMENT));
+
 		setRegistryName("anti_espada");
 	}
+
 }

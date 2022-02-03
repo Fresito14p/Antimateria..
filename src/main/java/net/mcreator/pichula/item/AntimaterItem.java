@@ -4,18 +4,19 @@ package net.mcreator.pichula.item;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.EquipmentSlot;
+
+import net.mcreator.pichula.init.PichulaModTabs;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
 public class AntimaterItem extends Item {
 	public AntimaterItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(64).fireResistant().rarity(Rarity.RARE));
+		super(new Item.Properties().tab(PichulaModTabs.TAB_ANTIMATERI).stacksTo(64).fireResistant().rarity(Rarity.RARE));
 		setRegistryName("antimater");
 	}
 

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "pichula:antimater"
+    },
+    "2": {
+      "item": "pichula:antimater"
+    },
+    "3": {
+      "item": "pichula:antimater"
+    },
+    "5": {
+      "item": "pichula:antimater"
+    }
+  },
+  "result": {
+    "item": "pichula:game_boots",
+    "count": 1
+  }
+}
