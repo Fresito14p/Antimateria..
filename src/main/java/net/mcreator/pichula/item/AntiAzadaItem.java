@@ -3,26 +3,26 @@ package net.mcreator.pichula.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.CreativeModeTab;
 
 import net.mcreator.pichula.init.PichulaModItems;
 
-public class AntiPicoItem extends PickaxeItem {
-	public AntiPicoItem() {
+public class AntiAzadaItem extends HoeItem {
+	public AntiAzadaItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 3500;
 			}
 
 			public float getSpeed() {
-				return 15f;
+				return 17f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return -1f;
 			}
 
 			public int getLevel() {
@@ -34,9 +34,9 @@ public class AntiPicoItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PichulaModItems.ANTI_PICO));
+				return Ingredient.of(new ItemStack(PichulaModItems.ANTI_AZADA));
 			}
-		}, 1, -1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
-		setRegistryName("anti_pico");
+		}, 0, -2f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		setRegistryName("anti_azada");
 	}
 }

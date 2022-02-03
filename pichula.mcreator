@@ -53,19 +53,87 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "picoantiamteria"
+    },
+    {
+      "name": "AntiHacha",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_hacha"
+    },
+    {
+      "name": "Hachaantimateria",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hachaantimateria"
+    },
+    {
+      "name": "AntiPala",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_pala"
+    },
+    {
+      "name": "Palaantimateria",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palaantimateria"
+    },
+    {
+      "name": "AntiAzada",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_azada"
+    },
+    {
+      "name": "Azadaantimateria",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azadaantimateria"
+    },
+    {
+      "name": "AntiEspada",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_espada"
+    },
+    {
+      "name": "Espadaantimateria",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espadaantimateria"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.pichula.anti_azada": "Anti Azada",
+      "item.pichula.anti_espada": "Anti Espada",
+      "item.pichula.antimater": "Antimater",
+      "item.pichula.anti_pico": "Anti Pico",
+      "item.pichula.anti_pala": "Anti Pala",
       "item.pichula.game_helmet": "Game Helmet",
       "block.pichula.antimateria": "Antimateria",
-      "item.pichula.antimater": "Antimater",
       "item.pichula.game_chestplate": "Game Body",
+      "item.pichula.anti_hacha": "Anti Hacha",
       "item.pichula.game_boots": "Game Boots",
       "item.pichula.game_leggings": "Game Leggings",
-      "item.pichula.anti_pico": "Anti Pico",
       "item.pichula.titi": "Titi"
     }
   },

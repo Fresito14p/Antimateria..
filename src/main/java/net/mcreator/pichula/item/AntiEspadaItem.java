@@ -10,19 +10,19 @@ import net.minecraft.world.item.CreativeModeTab;
 
 import net.mcreator.pichula.init.PichulaModItems;
 
-public class AntiPicoItem extends PickaxeItem {
-	public AntiPicoItem() {
+public class AntiEspadaItem extends PickaxeItem {
+	public AntiEspadaItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 3500;
 			}
 
 			public float getSpeed() {
-				return 15f;
+				return 17f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 15f;
 			}
 
 			public int getLevel() {
@@ -34,9 +34,9 @@ public class AntiPicoItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PichulaModItems.ANTI_PICO));
+				return Ingredient.of(new ItemStack(PichulaModItems.ANTI_ESPADA));
 			}
-		}, 1, -1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
-		setRegistryName("anti_pico");
+		}, 1, 1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		setRegistryName("anti_espada");
 	}
 }
