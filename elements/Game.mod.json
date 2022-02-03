@@ -1,0 +1,74 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "game_head",
+    "enableBody": true,
+    "textureBody": "game_body",
+    "enableLeggings": true,
+    "textureLeggings": "game_leggings",
+    "enableBoots": true,
+    "textureBoots": "game_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "armadura_a",
+    "helmetName": "Game Helmet",
+    "bodyName": "Game Body",
+    "leggingsName": "Game Leggings",
+    "bootsName": "Game Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 701,
+    "damageValueHelmet": 20,
+    "damageValueBody": 50,
+    "damageValueLeggings": 35,
+    "damageValueBoots": 30,
+    "enchantability": 32,
+    "toughness": 5.0,
+    "knockbackResistance": 5.0,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Game.helmet"
+      },
+      {
+        "value": "CUSTOM:Game.body"
+      },
+      {
+        "value": "CUSTOM:Game.legs"
+      },
+      {
+        "value": "CUSTOM:Game.boots"
+      },
+      {
+        "value": "CUSTOM:Antimater"
+      }
+    ]
+  }
+}

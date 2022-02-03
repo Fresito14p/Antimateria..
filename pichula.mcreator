@@ -1,0 +1,77 @@
+{
+  "mod_elements": [
+    {
+      "name": "Game",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "game",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Titi",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titi"
+    },
+    {
+      "name": "Antimateria",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimateria"
+    },
+    {
+      "name": "Antimater",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimater"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.pichula.game_helmet": "Game Helmet",
+      "block.pichula.antimateria": "Antimateria",
+      "item.pichula.game_chestplate": "Game Body",
+      "item.pichula.antimater": "Antimater",
+      "item.pichula.game_boots": "Game Boots",
+      "item.pichula.game_leggings": "Game Leggings",
+      "item.pichula.titi": "Titi"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "pichula",
+    "modName": "pichula",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.pichula",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

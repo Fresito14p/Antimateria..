@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pichula:blocks/antimateria",
+    "up": "pichula:blocks/antimateria",
+    "north": "pichula:blocks/antimateria",
+    "east": "pichula:blocks/antimateria",
+    "south": "pichula:blocks/antimateria",
+    "west": "pichula:blocks/antimateria",
+    "particle": "pichula:blocks/antimateria"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pichula:block/antimateria"
+    },
+    "facing=east": {
+      "model": "pichula:block/antimateria",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pichula:block/antimateria",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pichula:block/antimateria",
+      "y": 270
+    }
+  }
+}
