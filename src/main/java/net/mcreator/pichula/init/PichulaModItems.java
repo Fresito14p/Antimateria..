@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.pichula.item.TitiItem;
 import net.mcreator.pichula.item.GameItem;
 import net.mcreator.pichula.item.AntimaterItem;
+import net.mcreator.pichula.item.AntiPicoItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -30,6 +31,7 @@ public class PichulaModItems {
 	public static final Item TITI = register(new TitiItem());
 	public static final Item ANTIMATERIA = register(PichulaModBlocks.ANTIMATERIA, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item ANTIMATER = register(new AntimaterItem());
+	public static final Item ANTI_PICO = register(new AntiPicoItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
