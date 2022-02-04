@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "varita",
+    "customModelName": "Normal",
+    "name": "Varita",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Antimateri"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 500.0,
+    "attackSpeed": 2.0,
+    "enchantability": 20,
+    "damageVsEntity": 4.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

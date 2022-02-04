@@ -181,6 +181,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "antimateri"
+    },
+    {
+      "name": "Mago",
+      "type": "livingentity",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mago"
+    },
+    {
+      "name": "Varita",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "varita"
+    },
+    {
+      "name": "Pulad",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulad"
     }
   ],
   "variable_elements": [],
@@ -191,16 +215,20 @@
       "block.pichula.estrella_bl": "Estrella BL",
       "item.pichula.anti_espada": "Anti Espada",
       "item.pichula.antimater": "Antimater",
+      "item.pichula.mago_spawn_egg": "Mago Spawn Egg",
       "item.pichula.anti_pico": "Anti Pico",
+      "entity.pichula.mago": "Mago",
       "item.pichula.anti_pala": "Anti Pala",
       "item.pichula.game_helmet": "Game Helmet",
       "block.pichula.antimateria": "Antimateria",
       "item.pichula.game_chestplate": "Game Body",
+      "item.pichula.pulad": "Pulad",
       "item.pichula.anti_hacha": "Anti Hacha",
       "item.pichula.game_boots": "Game Boots",
       "item.pichula.game_leggings": "Game Leggings",
       "item.pichula.titi": "Titi",
-      "itemGroup.tabantimateri": "Antimateri"
+      "itemGroup.tabantimateri": "Antimateri",
+      "item.pichula.varita": "Varita"
     }
   },
   "foldersRoot": {

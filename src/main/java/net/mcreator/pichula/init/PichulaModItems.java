@@ -9,11 +9,14 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.pichula.item.VaritaItem;
 import net.mcreator.pichula.item.TitiItem;
+import net.mcreator.pichula.item.PuladItem;
 import net.mcreator.pichula.item.GameItem;
 import net.mcreator.pichula.item.AntimaterItem;
 import net.mcreator.pichula.item.AntiPicoItem;
@@ -41,6 +44,10 @@ public class PichulaModItems {
 	public static final Item ANTI_AZADA = register(new AntiAzadaItem());
 	public static final Item ANTI_ESPADA = register(new AntiEspadaItem());
 	public static final Item ESTRELLA_BL = register(PichulaModBlocks.ESTRELLA_BL, PichulaModTabs.TAB_ANTIMATERI);
+	public static final Item MAGO = register(
+			new SpawnEggItem(PichulaModEntities.MAGO, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)).setRegistryName("mago_spawn_egg"));
+	public static final Item VARITA = register(new VaritaItem());
+	public static final Item PULAD = register(new PuladItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
