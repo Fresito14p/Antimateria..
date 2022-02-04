@@ -10,16 +10,23 @@
     "creativeTab": {
       "value": "CUSTOM:Antimateri"
     },
-    "toolType": "Special",
+    "toolType": "MultiTool",
     "harvestLevel": 1,
-    "efficiency": 500.0,
-    "attackSpeed": 2.0,
+    "efficiency": 1.0,
+    "attackSpeed": 3.0,
     "enchantability": 20,
     "damageVsEntity": 4.0,
     "usageCount": 10000,
     "blocksAffected": [],
     "hasGlow": true,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:Varita"
+      },
+      {
+        "value": "CUSTOM:Pulad"
+      }
+    ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": true,
     "damageOnCrafting": false

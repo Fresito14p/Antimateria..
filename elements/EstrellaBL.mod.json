@@ -95,8 +95,8 @@
       "value": ""
     },
     "luminance": 0,
-    "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "unbreakable": true,
+    "breakHarvestLevel": 36,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

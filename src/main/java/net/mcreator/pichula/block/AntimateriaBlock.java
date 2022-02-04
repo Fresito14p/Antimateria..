@@ -1,20 +1,48 @@
 
 package net.mcreator.pichula.block;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.phys.HitResult;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.Mirror;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
+
+import net.mcreator.pichula.init.PichulaModItems;
+import net.mcreator.pichula.init.PichulaModBlocks;
+
+import java.util.Random;
+import java.util.List;
+import java.util.Collections;
 
 public class AntimateriaBlock extends Block {
-
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public AntimateriaBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.STONE).strength(50f).lightLevel(s -> 10).requiresCorrectToolForDrops()
 				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
-
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-
 		setRegistryName("antimateria");
 	}
 
@@ -73,7 +101,6 @@ public class AntimateriaBlock extends Block {
 
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -98,5 +125,4 @@ public class AntimateriaBlock extends Block {
 			world.addParticle(ParticleTypes.EXPLOSION, x0, y0, z0, dx, dy, dz);
 		}
 	}
-
 }
