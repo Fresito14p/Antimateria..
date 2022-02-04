@@ -243,6 +243,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "jungla"
+    },
+    {
+      "name": "Holajungla",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holajungla"
     }
   ],
   "variable_elements": [],
@@ -266,6 +274,7 @@
       "item.pichula.anti_hacha": "Anti Hacha",
       "item.pichula.game_boots": "Game Boots",
       "item.pichula.petroleo_bucket": "Petroleo Bucket",
+      "block.pichula.holajungla": "Holajungla",
       "item.pichula.varita": "Varita",
       "item.pichula.titi": "Titi",
       "item.pichula.anti_espada": "Anti Espada",

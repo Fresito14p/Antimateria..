@@ -11,6 +11,7 @@ import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.Level;
 import net.minecraft.resources.ResourceLocation;
@@ -22,15 +23,14 @@ import net.mcreator.pichula.init.PichulaModBlocks;
 import java.util.Set;
 import java.util.Random;
 
-public class TroncodeJunglaFeature extends OreFeature {
-	public static final TroncodeJunglaFeature FEATURE = (TroncodeJunglaFeature) new TroncodeJunglaFeature()
-			.setRegistryName("pichula:troncode_jungla");
+public class EarthbeginFeature extends OreFeature {
+	public static final EarthbeginFeature FEATURE = (EarthbeginFeature) new EarthbeginFeature().setRegistryName("pichula:earthbegin");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(TroncodeJunglaFeatureRuleTest.INSTANCE, PichulaModBlocks.TRONCODE_JUNGLA.defaultBlockState(), 16))
+			.configured(new OreConfiguration(EarthbeginFeatureRuleTest.INSTANCE, PichulaModBlocks.EARTHBEGIN.defaultBlockState(), 16))
 			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)))).squared().count(10);
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("pichula:jungla"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
-	public TroncodeJunglaFeature() {
+	public EarthbeginFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -45,14 +45,16 @@ public class TroncodeJunglaFeature extends OreFeature {
 		return super.place(context);
 	}
 
-	private static class TroncodeJunglaFeatureRuleTest extends RuleTest {
-		static final TroncodeJunglaFeatureRuleTest INSTANCE = new TroncodeJunglaFeatureRuleTest();
-		static final com.mojang.serialization.Codec<TroncodeJunglaFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		static final RuleTestType<TroncodeJunglaFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
-				new ResourceLocation("pichula:troncode_jungla_match"), () -> codec);
+	private static class EarthbeginFeatureRuleTest extends RuleTest {
+		static final EarthbeginFeatureRuleTest INSTANCE = new EarthbeginFeatureRuleTest();
+		static final com.mojang.serialization.Codec<EarthbeginFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		static final RuleTestType<EarthbeginFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
+				new ResourceLocation("pichula:earthbegin_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
+			if (blockAt.getBlock() == Blocks.GRASS_BLOCK)
+				blockCriteria = true;
 			return blockCriteria;
 		}
 

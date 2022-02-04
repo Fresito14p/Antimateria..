@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pichula:blocks/hola_jungal",
+    "up": "pichula:blocks/hola_jungal",
+    "north": "pichula:blocks/hola_jungal",
+    "east": "pichula:blocks/hola_jungal",
+    "south": "pichula:blocks/hola_jungal",
+    "west": "pichula:blocks/hola_jungal",
+    "particle": "pichula:blocks/hola_jungal"
+  }
+}

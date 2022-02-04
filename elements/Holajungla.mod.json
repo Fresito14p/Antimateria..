@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "up_wood",
-    "textureTop": "up_wood",
-    "textureLeft": "madera",
-    "textureFront": "madera",
-    "textureRight": "madera",
-    "textureBack": "madera",
+    "texture": "hola_jungal",
+    "textureTop": "hola_jungal",
+    "textureLeft": "hola_jungal",
+    "textureFront": "hola_jungal",
+    "textureRight": "hola_jungal",
+    "textureBack": "hola_jungal",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Troncode Jungla",
+    "name": "Holajungla",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -41,9 +41,9 @@
     "creativeTab": {
       "value": "CUSTOM:Antimateri"
     },
-    "destroyTool": "axe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "Items.STICK"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "WOOD"
+      "value": "LEAVES"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -63,11 +63,11 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:TroncodeJungla"
+      "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 1,
+    "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "PLANT"
     },
     "breakSound": {
       "value": ""
@@ -124,12 +124,12 @@
     "spawnWorldTypes": [
       "CUSTOM:Beginning"
     ],
-    "restrictionBiomes": [
+    "restrictionBiomes": [],
+    "blocksToReplace": [
       {
-        "value": "CUSTOM:Jungla"
+        "value": "Blocks.LEAVES#3"
       }
     ],
-    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

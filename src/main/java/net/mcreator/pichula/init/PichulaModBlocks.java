@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.pichula.block.TroncodeJunglaBlock;
 import net.mcreator.pichula.block.PetroleoBlock;
+import net.mcreator.pichula.block.HolajunglaBlock;
 import net.mcreator.pichula.block.EstrellaBLBlock;
 import net.mcreator.pichula.block.EarthbeginBlock;
 import net.mcreator.pichula.block.BeginningPortalBlock;
@@ -32,6 +33,7 @@ public class PichulaModBlocks {
 	public static final Block BEGINNING_PORTAL = register(new BeginningPortalBlock());
 	public static final Block PETROLEO = register(new PetroleoBlock());
 	public static final Block TRONCODE_JUNGLA = register(new TroncodeJunglaBlock());
+	public static final Block HOLAJUNGLA = register(new HolajunglaBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

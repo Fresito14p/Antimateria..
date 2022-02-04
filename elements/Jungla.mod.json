@@ -33,17 +33,17 @@
     "particlesProbability": 0.5,
     "biomeCategory": "JUNGLE",
     "parent": {
-      "value": "jungle_hills"
+      "value": "mutated_jungle"
     },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "biomeType": "WARM",
-    "spawnBiome": true,
+    "spawnBiome": false,
     "biomeWeight": 100,
     "biomeDictionaryTypes": [],
-    "grassPerChunk": 4,
+    "grassPerChunk": 100,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,
@@ -52,15 +52,15 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 7,
-    "vanillaTreeType": "Mega spruce trees",
+    "treesPerChunk": 100,
+    "vanillaTreeType": "Big trees",
     "treeType": 1,
-    "minHeight": 7,
+    "minHeight": 20,
     "treeStem": {
       "value": "CUSTOM:TroncodeJungla"
     },
     "treeBranch": {
-      "value": "CUSTOM:TroncodeJungla"
+      "value": "CUSTOM:Holajungla"
     },
     "treeVines": {
       "value": ""
