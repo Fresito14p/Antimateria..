@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pichula:blocks/down_earth",
+    "up": "pichula:blocks/up_begin",
+    "north": "pichula:blocks/earth_begin",
+    "east": "pichula:blocks/earth_begin",
+    "south": "pichula:blocks/earth_begin",
+    "west": "pichula:blocks/earth_begin",
+    "particle": "pichula:blocks/down_earth"
+  }
+}

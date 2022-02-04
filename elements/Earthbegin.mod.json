@@ -2,23 +2,23 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "antimateria",
-    "textureTop": "antimateria",
-    "textureLeft": "antimateria",
-    "textureFront": "antimateria",
-    "textureRight": "antimateria",
-    "textureBack": "antimateria",
+    "texture": "down_earth",
+    "textureTop": "up_begin",
+    "textureLeft": "earth_begin",
+    "textureFront": "earth_begin",
+    "textureRight": "earth_begin",
+    "textureBack": "earth_begin",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 3,
-    "emissiveRendering": true,
+    "rotationMode": 0,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
-    "connectedSides": false,
+    "connectedSides": true,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
@@ -32,27 +32,27 @@
         "subtract": false
       }
     ],
-    "name": "Antimateria",
+    "name": "Earthbegin",
     "specialInfo": [],
-    "hardness": 50.0,
-    "resistance": 50.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Antimateri"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "shovel",
     "customDrop": {
-      "value": "CUSTOM:Antimater"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 1.0,
+    "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "GRASS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -63,7 +63,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:Antimateria"
+      "value": "CUSTOM:Earthbegin"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -73,11 +73,11 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "IGNORE",
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -94,16 +94,16 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 10,
+    "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.2,
-    "particleAmount": 7,
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -121,18 +121,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 6,
-    "frequencyOnChunk": 6,
-    "minGenerateHeight": 4,
-    "maxGenerateHeight": 13
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

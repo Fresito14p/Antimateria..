@@ -17,6 +17,7 @@ import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.pichula.world.features.ores.AntimateriaFeature;
+import net.mcreator.pichula.world.features.lakes.PetroleoFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -28,6 +29,8 @@ public class PichulaModFeatures {
 	static {
 		REGISTRY.put(AntimateriaFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				AntimateriaFeature.GENERATE_BIOMES, AntimateriaFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(PetroleoFeature.FEATURE,
+				new FeatureRegistration(GenerationStep.Decoration.LAKES, PetroleoFeature.GENERATE_BIOMES, PetroleoFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

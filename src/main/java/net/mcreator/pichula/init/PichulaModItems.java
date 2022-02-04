@@ -17,7 +17,9 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.pichula.item.VaritaItem;
 import net.mcreator.pichula.item.TitiItem;
 import net.mcreator.pichula.item.PuladItem;
+import net.mcreator.pichula.item.PetroleoItem;
 import net.mcreator.pichula.item.GameItem;
+import net.mcreator.pichula.item.BeginningItem;
 import net.mcreator.pichula.item.AntimaterItem;
 import net.mcreator.pichula.item.AntiPicoItem;
 import net.mcreator.pichula.item.AntiPalaItem;
@@ -48,6 +50,9 @@ public class PichulaModItems {
 			new SpawnEggItem(PichulaModEntities.MAGO, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)).setRegistryName("mago_spawn_egg"));
 	public static final Item VARITA = register(new VaritaItem());
 	public static final Item PULAD = register(new PuladItem());
+	public static final Item EARTHBEGIN = register(PichulaModBlocks.EARTHBEGIN, PichulaModTabs.TAB_ANTIMATERI);
+	public static final Item BEGINNING = register(new BeginningItem());
+	public static final Item PETROLEO_BUCKET = register(new PetroleoItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

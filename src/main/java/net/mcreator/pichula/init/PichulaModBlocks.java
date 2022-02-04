@@ -13,7 +13,10 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.pichula.block.PetroleoBlock;
 import net.mcreator.pichula.block.EstrellaBLBlock;
+import net.mcreator.pichula.block.EarthbeginBlock;
+import net.mcreator.pichula.block.BeginningPortalBlock;
 import net.mcreator.pichula.block.AntimateriaBlock;
 
 import java.util.List;
@@ -24,6 +27,9 @@ public class PichulaModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block ANTIMATERIA = register(new AntimateriaBlock());
 	public static final Block ESTRELLA_BL = register(new EstrellaBLBlock());
+	public static final Block EARTHBEGIN = register(new EarthbeginBlock());
+	public static final Block BEGINNING_PORTAL = register(new BeginningPortalBlock());
+	public static final Block PETROLEO = register(new PetroleoBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

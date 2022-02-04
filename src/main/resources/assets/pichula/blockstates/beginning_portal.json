@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "pichula:block/beginning_portal_ew"
+    },
+    "axis=x": {
+      "model": "pichula:block/beginning_portal_ns"
+    }
+  }
+}

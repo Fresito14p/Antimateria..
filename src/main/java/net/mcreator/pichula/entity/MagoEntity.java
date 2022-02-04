@@ -40,7 +40,7 @@ import net.mcreator.pichula.init.PichulaModEntities;
 public class MagoEntity extends Monster {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(PichulaModEntities.MAGO, 100, 1, 5));
+		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(PichulaModEntities.MAGO, 100, 1, 3));
 	}
 
 	public MagoEntity(FMLPlayMessages.SpawnEntity packet, Level world) {
