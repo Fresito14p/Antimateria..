@@ -46,7 +46,7 @@
       "value": "CUSTOM:Antimateri"
     },
     "texture": "varita",
-    "portalTexture": "antimateria",
+    "portalTexture": "petroleo",
     "enablePortal": true
   }
 }

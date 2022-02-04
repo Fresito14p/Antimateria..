@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "pichula:blocks/antimateria",
-    "portal": "pichula:blocks/antimateria"
+    "particle": "pichula:blocks/petroleo",
+    "portal": "pichula:blocks/petroleo"
   },
   "elements": [
     {
