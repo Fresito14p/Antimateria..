@@ -119,44 +119,12 @@
       "registry_name": "espadaantimateria"
     },
     {
-      "name": "Armor",
-      "type": "recipe",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "armor"
-    },
-    {
-      "name": "Pantalones",
-      "type": "recipe",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pantalones"
-    },
-    {
       "name": "EstrellaBL",
       "type": "block",
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "estrella_bl"
-    },
-    {
-      "name": "Estrella",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "estrella"
-    },
-    {
-      "name": "Tit",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tit"
     },
     {
       "name": "Boots",
@@ -173,6 +141,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "casco"
+    },
+    {
+      "name": "Estrella",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estrella"
+    },
+    {
+      "name": "Tit",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tit"
     },
     {
       "name": "Antimateri",
