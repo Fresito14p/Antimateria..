@@ -227,6 +227,14 @@
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "TroncodeJungla",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troncode_jungla"
     }
   ],
   "variable_elements": [],
@@ -235,10 +243,9 @@
     "en_us": {
       "item.pichula.anti_azada": "Anti Azada",
       "block.pichula.estrella_bl": "Estrella BL",
-      "item.pichula.anti_espada": "Anti Espada",
       "item.pichula.beginning": "Beginning Portal Igniter",
       "item.pichula.antimater": "Antimater",
-      "item.pichula.mago_spawn_egg": "Mago Spawn Egg",
+      "block.pichula.troncode_jungla": "Troncode Jungla",
       "item.pichula.anti_pico": "Anti Pico",
       "entity.pichula.mago": "Mago",
       "fluid.pichula.petroleo": "Petroleo",
@@ -246,16 +253,18 @@
       "block.pichula.earthbegin": "Earthbegin",
       "item.pichula.game_helmet": "Game Helmet",
       "block.pichula.antimateria": "Antimateria",
-      "block.pichula.petroleo": "Petroleo",
-      "item.pichula.game_chestplate": "Game Body",
       "item.pichula.pulad": "Pulad",
       "item.pichula.anti_hacha": "Anti Hacha",
       "item.pichula.game_boots": "Game Boots",
       "item.pichula.petroleo_bucket": "Petroleo Bucket",
-      "item.pichula.game_leggings": "Game Leggings",
       "item.pichula.titi": "Titi",
-      "itemGroup.tabantimateri": "Antimateri",
-      "item.pichula.varita": "Varita"
+      "item.pichula.varita": "Varita",
+      "item.pichula.anti_espada": "Anti Espada",
+      "item.pichula.mago_spawn_egg": "Mago Spawn Egg",
+      "block.pichula.petroleo": "Petroleo",
+      "item.pichula.game_chestplate": "Game Body",
+      "item.pichula.game_leggings": "Game Leggings",
+      "itemGroup.tabantimateri": "Antimateri"
     }
   },
   "foldersRoot": {

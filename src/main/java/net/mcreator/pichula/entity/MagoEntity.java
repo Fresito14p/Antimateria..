@@ -51,7 +51,7 @@ public class MagoEntity extends Monster {
 		super(type, world);
 		xpReward = 20;
 		setNoAi(false);
-		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(PichulaModItems.BEGINNING));
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(PichulaModItems.VARITA));
 	}
 
 	@Override
@@ -105,8 +105,8 @@ public class MagoEntity extends Monster {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 300);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
+		builder = builder.add(Attributes.MAX_HEALTH, 400);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 5);
 		return builder;

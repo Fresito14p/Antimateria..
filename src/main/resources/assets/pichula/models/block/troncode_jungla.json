@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pichula:blocks/up_wood",
+    "up": "pichula:blocks/up_wood",
+    "north": "pichula:blocks/madera",
+    "east": "pichula:blocks/madera",
+    "south": "pichula:blocks/madera",
+    "west": "pichula:blocks/madera",
+    "particle": "pichula:blocks/up_wood"
+  }
+}

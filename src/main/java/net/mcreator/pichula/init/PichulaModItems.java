@@ -53,6 +53,7 @@ public class PichulaModItems {
 	public static final Item EARTHBEGIN = register(PichulaModBlocks.EARTHBEGIN, PichulaModTabs.TAB_ANTIMATERI);
 	public static final Item BEGINNING = register(new BeginningItem());
 	public static final Item PETROLEO_BUCKET = register(new PetroleoItem());
+	public static final Item TRONCODE_JUNGLA = register(PichulaModBlocks.TRONCODE_JUNGLA, PichulaModTabs.TAB_ANTIMATERI);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

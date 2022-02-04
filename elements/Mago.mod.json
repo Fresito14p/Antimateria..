@@ -27,7 +27,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "CUSTOM:Beginning"
+      "value": "CUSTOM:Varita"
     },
     "equipmentOffHand": {
       "value": ""
@@ -49,10 +49,10 @@
     "attackStrength": 5,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.3,
+    "movementSpeed": 0.5,
     "armorBaseValue": 0.0,
     "trackingRange": 20,
-    "health": 300,
+    "health": 400,
     "xpAmount": 20,
     "waterMob": false,
     "flyingMob": false,
