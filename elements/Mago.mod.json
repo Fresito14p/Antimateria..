@@ -27,7 +27,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "CUSTOM:Varita"
+      "value": "CUSTOM:Beginning"
     },
     "equipmentOffHand": {
       "value": ""

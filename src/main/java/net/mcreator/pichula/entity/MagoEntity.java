@@ -51,7 +51,7 @@ public class MagoEntity extends Monster {
 		super(type, world);
 		xpReward = 20;
 		setNoAi(false);
-		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(PichulaModItems.VARITA));
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(PichulaModItems.BEGINNING));
 	}
 
 	@Override
