@@ -16,6 +16,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
+import net.mcreator.pichula.world.features.ores.TroncodeJunglaFeature;
 import net.mcreator.pichula.world.features.ores.AntimateriaFeature;
 import net.mcreator.pichula.world.features.lakes.PetroleoFeature;
 
@@ -31,6 +32,8 @@ public class PichulaModFeatures {
 				AntimateriaFeature.GENERATE_BIOMES, AntimateriaFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(PetroleoFeature.FEATURE,
 				new FeatureRegistration(GenerationStep.Decoration.LAKES, PetroleoFeature.GENERATE_BIOMES, PetroleoFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(TroncodeJunglaFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				TroncodeJunglaFeature.GENERATE_BIOMES, TroncodeJunglaFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

@@ -30,17 +30,9 @@ public class BeginningDimension {
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
 			replaceableBlocks.add(PichulaModBlocks.EARTHBEGIN);
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("deep_warm_ocean")).getGenerationSettings().getSurfaceBuilder()
+			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("pichula:jungla")).getGenerationSettings().getSurfaceBuilder()
 					.get().config().getTopMaterial().getBlock());
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("deep_warm_ocean")).getGenerationSettings().getSurfaceBuilder()
-					.get().config().getUnderMaterial().getBlock());
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("giant_tree_taiga_hills")).getGenerationSettings()
-					.getSurfaceBuilder().get().config().getTopMaterial().getBlock());
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("giant_tree_taiga_hills")).getGenerationSettings()
-					.getSurfaceBuilder().get().config().getUnderMaterial().getBlock());
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("end_highlands")).getGenerationSettings().getSurfaceBuilder()
-					.get().config().getTopMaterial().getBlock());
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("end_highlands")).getGenerationSettings().getSurfaceBuilder()
+			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("pichula:jungla")).getGenerationSettings().getSurfaceBuilder()
 					.get().config().getUnderMaterial().getBlock());
 			event.enqueueWork(() -> {
 				WorldCarver.CAVE.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CAVE.replaceableBlocks)

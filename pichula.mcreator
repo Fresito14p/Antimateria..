@@ -235,6 +235,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "troncode_jungla"
+    },
+    {
+      "name": "Jungla",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungla"
     }
   ],
   "variable_elements": [],
@@ -243,6 +251,7 @@
     "en_us": {
       "item.pichula.anti_azada": "Anti Azada",
       "block.pichula.estrella_bl": "Estrella BL",
+      "biome.pichula.jungla": "Jungla",
       "item.pichula.beginning": "Beginning Portal Igniter",
       "item.pichula.antimater": "Antimater",
       "block.pichula.troncode_jungla": "Troncode Jungla",
@@ -257,8 +266,8 @@
       "item.pichula.anti_hacha": "Anti Hacha",
       "item.pichula.game_boots": "Game Boots",
       "item.pichula.petroleo_bucket": "Petroleo Bucket",
-      "item.pichula.titi": "Titi",
       "item.pichula.varita": "Varita",
+      "item.pichula.titi": "Titi",
       "item.pichula.anti_espada": "Anti Espada",
       "item.pichula.mago_spawn_egg": "Mago Spawn Egg",
       "block.pichula.petroleo": "Petroleo",

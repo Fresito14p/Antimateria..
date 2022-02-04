@@ -4,13 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "redwood_taiga_hills"
-      },
-      {
-        "value": "deep_warm_ocean"
-      },
-      {
-        "value": "end_highlands"
+        "value": "CUSTOM:Jungla"
       }
     ],
     "worldGenType": "Normal world gen",
